@@ -1,0 +1,12 @@
+Model:NeuMF | Dataset:milk_tea |  Epsilon=0.0 | K=10 | GRU_metric=f1
+Before optimization overall scores           : ndcg@10=0.0510 f1@10=0.0201 
+Before optimization group 1 (active) scores  : ndcg@10=0.0508 f1@10=0.0202 
+Before optimization group 2 (inactive) scores: ndcg@10=0.0510 f1@10=0.0201 
+Before optimization ------------------ UFG-f1:0.0001
+After optimization overall metric scores     : ndcg@10=0.0595 f1@10=0.0252 
+After optimization group 1 (active) scores   : ndcg@10=0.0616 f1@10=0.0268 
+After optimization group 2 (inactive) scores : ndcg@10=0.0693 f1@10=0.0305 
+After optimization ------------------- UFG-f1:0.0037
+
+
+

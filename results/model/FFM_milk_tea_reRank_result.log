@@ -1,0 +1,9 @@
+Model:FFM | Dataset:milk_tea |  Epsilon=0.0 | K=10 | GRU_metric=f1
+Before optimization overall scores           : ndcg@10=0.0807 f1@10=0.0253 
+Before optimization group 1 (active) scores  : ndcg@10=0.0818 f1@10=0.0266 
+Before optimization group 2 (inactive) scores: ndcg@10=0.0806 f1@10=0.0252
+Before optimization ------------------ UFG-f1:0.0043
+After optimization overall metric scores     : ndcg@10=0.0862 f1@10=0.0298 
+After optimization group 1 (active) scores   : ndcg@10=0.1081 f1@10=0.0414 
+After optimization group 2 (inactive) scores : ndcg@10=0.0917 f1@10=0.0325 
+After optimization ------------------- UFG-f1:0.0089

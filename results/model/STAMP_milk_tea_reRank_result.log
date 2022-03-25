@@ -1,0 +1,9 @@
+Model:STAMP | Dataset:milk_tea |  Epsilon=0.0 | K=10 | GRU_metric=f1
+Before optimization overall scores           : ndcg@10=0.0807 f1@10=0.0253 
+Before optimization group 1 (active) scores  : ndcg@10=0.0807 f1@10=0.0261 
+Before optimization group 2 (inactive) scores: ndcg@10=0.0807 f1@10=0.0251 
+Before optimization ------------------ UFG-f1:0.0030
+After optimization overall metric scores     : ndcg@10=0.0857 f1@10=0.0297 
+After optimization group 1 (active) scores   : ndcg@10=0.0913 f1@10=0.0322 
+After optimization group 2 (inactive) scores : ndcg@10=0.0952 f1@10=0.0346 
+After optimization ------------------- UFG-f1:0.0024
